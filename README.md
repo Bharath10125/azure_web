@@ -143,16 +143,3 @@ azure_web/
 
 ---
 
-## 🔮 What We Are Going to Do Next (Roadmap)
-
-1. **WebSocket / SSE Migration**:
-   - Replace 1-second REST polling with Server-Sent Events (SSE) or WebSockets (`flask-socketio`) for instantaneous, event-driven updates.
-2. **Historical Telemetry Log & Charts**:
-   - Store rolling history of recent messages in the backend.
-   - Add visual graphs (e.g., sensor temperature/humidity over time using Chart.js or Recharts).
-3. **Multi-Device Support**:
-   - Parse and group telemetry by `device_id` so users can filter messages by individual device.
-4. **Environment Variables**:
-   - Move Azure connection strings and API URLs to `.env` files for security and deployment readiness.
-5. **Production Deployment**:
-   - Containerize with Docker and deploy the backend to Azure App Service and frontend to Azure Static Web Apps.
