@@ -19,10 +19,10 @@ CORS(app, resources={
 
 # Use a newly rotated Azure key here.
 CONNECTION_STRING = (
-    "Endpoint=sb://ihsuprodpnres016dednamespace.servicebus.windows.net/;"
+    "Endpoint=sb:"your endpoint";"
     "SharedAccessKeyName=iothubowner;"
-    "SharedAccessKey=+mk2+0LDW4D+i/WE1G6/9sP41m5kWJAexAIoTObd5kE=;"
-    "EntityPath=iothub-ehub-bharathiot-56245052-1173f97b8c"
+    "SharedAccessKey="your shared access key";"
+    "EntityPath="your entity path";"
 )
 
 CONSUMER_GROUP = "$default"
